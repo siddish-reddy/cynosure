@@ -1059,16 +1059,6 @@ body {
 	}
 }
 
-@media (max-width: 600px) {
-	.work--lockup .slider {
-		width: auto
-	}
-	.work--lockup .slider--item-left,
-	.work--lockup .slider--item-right {
-		display: none
-	}
-}
-
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -1108,6 +1098,20 @@ body {
     border-radius: 5px;
     border: 4px solid #fff9c4;
 }
+
+@media (max-width: 600px) {
+	.work--lockup .slider {
+		width: auto
+	}
+	.work--lockup .slider--item-left,
+	.work--lockup .slider--item-right {
+		display: none
+	}
+	.modal-content{
+		width: 70vw;
+	}
+}
+
 .modal .modal-header h2{
     text-align: center;
     color: black;

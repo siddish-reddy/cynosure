@@ -750,11 +750,10 @@ body {
 	fill: #fff
 }
 
-.intro--banner img {
+.intro--banner .video {
 	position: absolute;
-	bottom: 61px;
-	right: -190px;
-	max-width:650px;
+	top:30%;
+	right:0%;
 }
 
 .intro--options {
@@ -799,7 +798,7 @@ body {
 	.intro--banner h1 {
 		font-size: 55px
 	}
-	.intro--banner img {
+	.intro--banner .video {
 		width: 430px
 	}
 	.intro--options>a {
@@ -817,7 +816,7 @@ body {
 	.intro--banner h1 {
 		font-size: 44px
 	}
-	.intro--banner img {
+	.intro--banner .video {
 		width: 330px
 	}
 	.intro--options {
@@ -840,7 +839,7 @@ body {
 	.intro--banner h1 {
 		font-size: 55px
 	}
-	.intro--banner img {
+	.intro--banner .video {
 		display: none
 	}
 }

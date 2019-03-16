@@ -799,7 +799,7 @@ body {
 		font-size: 55px
 	}
 	.intro--banner .video {
-		width: 430px
+		width: 640px
 	}
 	.intro--options>a {
 		margin-right: 30px
@@ -817,7 +817,7 @@ body {
 		font-size: 44px
 	}
 	.intro--banner .video {
-		width: 330px
+		width: 430px
 	}
 	.intro--options {
 		display: block

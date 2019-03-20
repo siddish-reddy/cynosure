@@ -244,12 +244,14 @@ textarea {
 	-webkit-justify-content: space-between;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	margin-bottom: 60px
+	margin-bottom: 60px;
+	flex-wrap:wrap;
 }
 
 .work-request--information .information-name,
 .work-request--information .information-email,
-.work-request--information .information-number {
+.work-request--information .information-number,
+.work-request--information .information-college {
 	position: relative;
 	width: 40%;
 	height: 50px;
@@ -257,6 +259,7 @@ textarea {
     font-weight: 300;
     padding-left:4px;
 }
+
 
 .work-request--information input[type="text"],
 .work-request--information input[type="email"],
@@ -270,7 +273,9 @@ textarea {
 }
 
 .work-request--information input[type="text"]:focus,
-.work-request--information input[type="email"]:focus {
+.work-request--information input[type="email"]:focus,
+.work-request--information input[type="number"]:focus
+ {
 	outline: none;
 	background-color: #0c0c0c
 }
@@ -337,7 +342,9 @@ textarea {
 	}
 	.work-request--information .information-name,
     .work-request--information .information-email ,
-    .work-request--information .information-number{
+	.work-request--information .information-number,
+	.work-request--information .information-college
+	{
 		height: 40px;
 		font-size: 24px
 	}
